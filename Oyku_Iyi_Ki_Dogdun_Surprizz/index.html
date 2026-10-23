@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#fff5f1" />
+  <meta name="description" content="Öykü'ye özel, kalpten gelen küçük bir doğum günü sürprizi. İyi ki doğdun Öykü!" />
+  <title>İyi ki Doğdun Öykü! 🎂💕</title>
+  <link rel="icon" type="image/svg+xml" href="assets/heart.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="soft-grain" aria-hidden="true"></div>
+  <div class="floating-bg" aria-hidden="true"><span>♡</span><span>✦</span><span>♡</span><span>✽</span><span>♡</span><span>✧</span></div>
+
+  <header class="site-header">
+    <a class="brand" href="#baslangic"><span class="brand-icon">♡</span> Öykü'ye özel</a>
+    <button class="music-btn" id="musicBtn" type="button" aria-pressed="false"><span aria-hidden="true">♫</span> <span id="musicText">Müziği aç</span></button>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="baslangic" aria-labelledby="heroTitle">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="sparkle">✧</span> BUGÜN DÜNYANIN EN TATLI GÜNÜ <span class="sparkle">✧</span></div>
+        <h1 id="heroTitle">İyi ki doğdun,<br><em>güzel Öykü'm!</em> <span class="title-heart">♡</span></h1>
+        <p class="hero-description">Bugün her şey biraz daha pembe, bütün şarkılar biraz daha güzel... Çünkü bugün <strong>senin günün.</strong> Sen gül diye hazırladığım minicik bir dünya var burada. 💗</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="startSurprise" type="button">Sürprizini aç <span aria-hidden="true">↗</span></button>
+          <button class="btn btn-ghost" id="heartBtn" type="button"><span aria-hidden="true">♡</span> Kalp gönder</button>
+        </div>
+        <div class="hero-annotation"><span class="mini-heart">♥</span> <span>Biraz sevgi, biraz sihir, bolca sen.</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="visual-frame">
+          <span class="hero-star star-one" aria-hidden="true">✦</span>
+          <span class="hero-star star-two" aria-hidden="true">✧</span>
+          <span class="hero-star star-three" aria-hidden="true">♡</span>
+          <img class="main-illustration" src="assets/bears.svg" alt="Kocaman pembe kalbe sarılan iki sevimli ayıcık" />
+          <div class="handwritten-tag tag-top">en sevdiğim insan! <span>♡</span></div>
+          <div class="handwritten-tag tag-bottom">1000 öpücük sana 💋</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee-band" aria-label="Öykü için tatlı bir doğum günü mesajı"><div class="marquee-inner">✿ SEN GÜLÜNCE DÜNYA GÜZELLEŞİYOR ✿ İYİ Kİ VARSIN ÖYKÜ ✿ SEN GÜLÜNCE DÜNYA GÜZELLEŞİYOR ✿ İYİ Kİ VARSIN ÖYKÜ ✿</div></div>
+
+    <section class="little-things section-shell" aria-labelledby="thingsTitle">
+      <div class="section-intro reveal">
+        <span class="section-kicker">SENİNLE HER ŞEY DAHA GÜZEL</span>
+        <h2 id="thingsTitle">İyi ki <em>sen.</em></h2>
+        <p>Şu üç küçük kalbin içinde sana söylemek istediklerim var. Her birine dokun. ✨</p>
+      </div>
+      <div class="memory-grid">
+        <button class="memory-card memory-pink reveal" data-message="Dünyada en sevdiğim manzaralardan biri: senin gülüşün. Ne olur hep böyle güzel gül. 🥹💕" type="button"><span class="memory-icon" aria-hidden="true">🌷</span><span class="memory-number">01 /</span><strong>Gülüşün</strong><span class="memory-sub">Her şeyin en güzel hali.</span><span class="card-arrow" aria-hidden="true">↗</span></button>
+        <button class="memory-card memory-lavender reveal" data-message="Seninle sıradan bir gün bile özel oluyor. İyi ki yollarımız kesişmiş, iyi ki hayatımdasın. 🌙💜" type="button"><span class="memory-icon" aria-hidden="true">🧸</span><span class="memory-number">02 /</span><strong>Birlikteyken</strong><span class="memory-sub">Zaman biraz daha tatlı.</span><span class="card-arrow" aria-hidden="true">↗</span></button>
+        <button class="memory-card memory-peach reveal" data-message="Dileğim şu: yeni yaşında kalbinin istediği her şey gerçek olsun. Ben de her güzel anında yanında olayım. 🎀💖" type="button"><span class="memory-icon" aria-hidden="true">💌</span><span class="memory-number">03 /</span><strong>En güzel dileğim</strong><span class="memory-sub">Hep çok mutlu olman.</span><span class="card-arrow" aria-hidden="true">↗</span></button>
+      </div>
+    </section>
+
+    <section class="letter-section" id="mektup" aria-labelledby="letterTitle">
+      <div class="section-shell letter-layout">
+        <div class="letter-intro reveal">
+          <span class="section-kicker">KALBİMDEN KALBİNE</span>
+          <h2 id="letterTitle">Sana bir <em>mektubum</em> var.</h2>
+          <p>Bazı şeyler mesajla anlatılmaz. Ben de hepsini bir mektubun içine sakladım. Sadece sen açabilirsin. 💌</p>
+          <span class="curly-arrow" aria-hidden="true">↝</span>
+        </div>
+        <div class="letter-stage reveal" id="letterStage">
+          <button class="envelope" id="envelopeBtn" aria-expanded="false" aria-controls="letterPaper" type="button" aria-label="Öykü için yazılan mektubu aç">
+            <span class="envelope-back"></span><span class="envelope-paper-peek">Öykü'me ♡</span><span class="envelope-front"></span><span class="envelope-flap"></span><span class="envelope-seal">♥</span>
+          </button>
+          <div class="letter-instruction" id="letterInstruction">Mektuba dokun, kalbimi oku ♡</div>
+        </div>
+      </div>
+      <div class="letter-paper section-shell" id="letterPaper" hidden>
+        <div class="paper-inner">
+          <div class="paper-top">✧ BİRİCİK ÖYKÜ'ME ✧</div>
+          <h3>Sevgilim,</h3>
+          <p>Bugün senin doğum günün. Ama ben sanki en güzel hediyeyi çoktan almışım gibi hissediyorum; çünkü hayatımda <strong>sen varsın.</strong></p>
+          <p>Senin bir gülüşün, kötü geçen bir günü güzelleştirmeye yetiyor. Birlikte gülmek, saçmalamak, küçük şeyleri bile kocaman anılara dönüştürmek... Seninle her şeyin anlamı bambaşka.</p>
+          <p>Yeni yaşın sana huzur, sağlık, cesaret ve kalbinin içinden geçen bütün güzel şeyleri getirsin. Yorulduğunda omzun, mutlu olduğunda ilk alkışın, canın sıkıldığında seni güldürmeye çalışan kişi olmak istiyorum.</p>
+          <p>İyi ki doğdun sevgilim. İyi ki bu dünyaya geldin. Ve en çok da <strong>iyi ki benim hayatıma geldin.</strong></p>
+          <div class="paper-sign">Seni çok seven sevgilin <span>♡</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cake-section section-shell" id="pasta" aria-labelledby="cakeTitle">
+      <div class="cake-card reveal">
+        <div class="cake-copy">
+          <span class="section-kicker">DOĞUM GÜNÜ RİTÜELİMİZ</span>
+          <h2 id="cakeTitle">Gözlerini kapat,<br><em>bir dilek tut.</em></h2>
+          <p>Üç mum, milyon tane güzel dilek. Hazır olduğunda mumları üfle; dileğin gökyüzüne karışsın. 🎂</p>
+          <button class="btn btn-primary" id="blowBtn" type="button">🕯️ Mumları üfle!</button>
+          <p class="cake-feedback" id="cakeFeedback" aria-live="polite">Pssst... dileğini kimseye söyleme! 🤫</p>
+        </div>
+        <div class="cake-art" aria-label="Üç yanan mumlu, pembe kremalı doğum günü pastası" role="img">
+          <span class="cake-confetti c-one">✦</span><span class="cake-confetti c-two">♡</span><span class="cake-confetti c-three">✧</span>
+          <svg viewBox="0 0 430 380" width="100%" height="100%" aria-hidden="true">
+            <ellipse cx="210" cy="350" rx="164" ry="18" fill="#DEB3B4" opacity=".35" />
+            <ellipse cx="213" cy="331" rx="157" ry="24" fill="#fffaf4" stroke="#eeced1" stroke-width="5" />
+            <path d="M94 221 Q213 180 333 221 L323 311 Q214 353 103 311 Z" fill="#ffc5d1" stroke="#d98098" stroke-width="5"/>
+            <path d="M95 233 C112 250 126 229 142 238 S173 256 188 240 S217 251 234 238 S263 255 283 238 S313 251 333 228 L330 269 Q322 281 313 273 Q302 261 294 279 Q287 291 276 280 Q267 266 256 281 Q242 295 229 281 Q216 267 204 282 Q192 293 179 279 Q166 267 154 283 Q141 295 130 282 Q117 266 103 281 Z" fill="#fff5ef"/>
+            <ellipse cx="213" cy="219" rx="120" ry="35" fill="#fff8f0" stroke="#d98098" stroke-width="5" />
+            <path d="M117 216 Q147 199 175 213 T235 213 T309 216" fill="none" stroke="#f3c3cc" stroke-width="8" stroke-linecap="round"/>
+            <path d="M130 283 q11 -18 23 0 q12 18 24 0 M224 285 q11 -18 23 0 q12 18 24 0" stroke="#e889a1" fill="none" stroke-width="5" stroke-linecap="round"/>
+            <g fill="#fd7591"><path d="M194 293 C180 279 171 300 194 313 C217 300 207 279 194 293Z"/><path d="M303 295 C292 285 287 301 303 312 C320 302 314 285 303 295Z"/></g>
+            <g class="cake-candles"><rect x="161" y="126" width="17" height="78" rx="6" fill="#c1abf0" stroke="#a68bd3" stroke-width="3"/><rect x="207" y="113" width="17" height="89" rx="6" fill="#ffce66" stroke="#e6ab43" stroke-width="3"/><rect x="253" y="126" width="17" height="78" rx="6" fill="#9bdcd1" stroke="#77baa9" stroke-width="3"/><g stroke="#fffdf7" stroke-width="4"><path d="M166 143 l7 9 m-7 12 l7 9 m-7 12 l7 9"/><path d="M212 132 l7 9 m-7 13 l7 9 m-7 13 l7 9"/><path d="M258 143 l7 9 m-7 12 l7 9 m-7 12 l7 9"/></g></g>
+            <g class="flames"><path class="flame flame1" d="M169 118 C152 99 165 90 169 81 C172 94 186 104 169 118Z" fill="#ff9c62"/><path class="flame flame2" d="M215 106 C198 87 211 77 215 69 C219 81 232 90 215 106Z" fill="#ff9c62"/><path class="flame flame3" d="M261 118 C245 98 257 90 261 81 C265 93 278 105 261 118Z" fill="#ff9c62"/><path class="flame flame1" d="M169 113 C161 104 168 98 169 94 C171 103 177 108 169 113Z" fill="#fff4a4"/><path class="flame flame2" d="M215 100 C208 92 214 88 215 82 C218 92 221 96 215 100Z" fill="#fff4a4"/><path class="flame flame3" d="M261 113 C254 104 260 100 261 94 C264 103 267 108 261 113Z" fill="#fff4a4"/></g>
+            <g fill="#f398ad" opacity=".8"><circle cx="112" cy="188" r="5"/><circle cx="312" cy="178" r="5"/><circle cx="86" cy="161" r="4"/></g>
+          </svg>
+          <span class="smoke smoke-one" aria-hidden="true">∿</span><span class="smoke smoke-two" aria-hidden="true">∿</span><span class="smoke smoke-three" aria-hidden="true">∿</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="gift-section section-shell" id="hediye" aria-labelledby="giftTitle">
+      <div class="gift-content reveal">
+        <span class="section-kicker">SON BİR SÜRPRİZ DAHA</span>
+        <h2 id="giftTitle">Bu hediye <em>sadece sana.</em></h2>
+        <p>Kurdelanın altına küçücük ama kalpten gelen bir şey koydum. Açmak için hediyeye dokun. 🎁</p>
+        <button class="gift-button" id="giftBtn" type="button" aria-label="Öykü'nün sürpriz hediyesini aç"><img src="assets/gift.svg" alt="Pembe kurdeleli tatlı bir hediye paketi"/><span>Buraya tıkla! ♡</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span class="footer-heart">♡</span><p>İyi ki doğdun Öykü. İyi ki varsın, iyi ki biz. </p><small>Senin için sevgiyle hazırlandı · Sonsuz kalp, sıfır mesafe 💕</small><a href="#baslangic" class="back-top">En başa dön ↑</a></footer>
+
+  <div id="confettiLayer" class="confetti-layer" aria-hidden="true"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div class="modal-overlay" id="modalOverlay" hidden>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Pencereyi kapat">×</button>
+      <div class="modal-decor" id="modalDecor">💗</div>
+      <h2 id="modalTitle">Öykü'm ♡</h2>
+      <p id="modalBody"></p>
+      <button class="btn btn-primary" id="modalOkay" type="button">Kocaman sarıldım! 🤍</button>
+    </div>
+  </div>
+</body>
+</html>
