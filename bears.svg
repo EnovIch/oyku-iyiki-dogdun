@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="570" viewBox="0 0 640 570" fill="none">
+ <defs><filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#cc8d99" flood-opacity=".17"/></filter><linearGradient id="bigHeart" x1="246" y1="293" x2="425" y2="481" gradientUnits="userSpaceOnUse"><stop stop-color="#ffafc5"/><stop offset="1" stop-color="#eb7899"/></linearGradient></defs>
+ <path d="M84 303C57 181 169 76 282 102c106 24 139-35 221 23 84 59 85 172 31 260-53 88-198 104-304 83C127 447 99 369 84 303Z" fill="#ffe1e6"/>
+ <path d="M85 334C67 252 106 163 166 122" stroke="#fff6f0" stroke-width="9" stroke-linecap="round" stroke-dasharray="2 23"/>
+ <g fill="#f09fb2" opacity=".8"><path d="M113 141c-20-19-44 6-23 24l24 18 21-24c18-25-12-42-22-18Z"/><path d="M508 216c-14-14-30 3-19 16l19 14 17-17c13-16-8-29-17-13Z"/><path d="M171 422c-13-11-25 3-15 13l15 11 13-14c10-12-7-23-13-10Z"/></g>
+ <g stroke="#fff8e8" stroke-width="5" stroke-linecap="round"><path d="M176 82v28m-14-14h28M505 361v25m-12-12h24M451 74v15m-7-7h15"/></g>
+ <g filter="url(#shadow)">
+ <!-- cream bear body -->
+ <ellipse cx="390" cy="390" rx="112" ry="118" fill="#f8e9d8" stroke="#a7786b" stroke-width="7"/>
+ <ellipse cx="409" cy="430" rx="64" ry="66" fill="#fff5eb"/>
+ <ellipse cx="321" cy="321" rx="29" ry="40" transform="rotate(-30 321 321)" fill="#f8e9d8" stroke="#a7786b" stroke-width="7"/>
+ <ellipse cx="456" cy="324" rx="29" ry="43" transform="rotate(29 456 324)" fill="#f8e9d8" stroke="#a7786b" stroke-width="7"/>
+ <!-- dark bear body -->
+ <ellipse cx="257" cy="391" rx="119" ry="125" fill="#c99173" stroke="#875b54" stroke-width="7"/>
+ <ellipse cx="238" cy="439" rx="68" ry="62" fill="#e6b798"/>
+ <ellipse cx="181" cy="335" rx="34" ry="43" transform="rotate(-28 181 335)" fill="#c99173" stroke="#875b54" stroke-width="7"/>
+ <!-- cream bear ears & face -->
+ <circle cx="329" cy="187" r="34" fill="#f8e9d8" stroke="#a7786b" stroke-width="7"/><circle cx="457" cy="177" r="34" fill="#f8e9d8" stroke="#a7786b" stroke-width="7"/>
+ <circle cx="329" cy="187" r="17" fill="#f5b7af"/><circle cx="457" cy="177" r="17" fill="#f5b7af"/>
+ <ellipse cx="390" cy="236" rx="107" ry="98" fill="#f8e9d8" stroke="#a7786b" stroke-width="7"/>
+ <ellipse cx="390" cy="270" rx="42" ry="31" fill="#fff8ee"/><ellipse cx="393" cy="255" rx="13" ry="9" fill="#755451"/>
+ <path d="M393 264v9m0 0q-13 16-25 0m25 0q14 16 26 0" stroke="#755451" stroke-width="4" stroke-linecap="round"/>
+ <ellipse cx="350" cy="236" rx="5" ry="7" fill="#654d4c"/><ellipse cx="432" cy="232" rx="5" ry="7" fill="#654d4c"/>
+ <ellipse cx="331" cy="264" rx="19" ry="10" fill="#f4a3aa" opacity=".7"/><ellipse cx="453" cy="256" rx="19" ry="10" fill="#f4a3aa" opacity=".7"/>
+ <!-- brown bear ears & face -->
+ <circle cx="178" cy="181" r="35" fill="#c99173" stroke="#875b54" stroke-width="7"/><circle cx="303" cy="181" r="35" fill="#c99173" stroke="#875b54" stroke-width="7"/>
+ <circle cx="177" cy="180" r="17" fill="#e8ac9b"/><circle cx="303" cy="180" r="17" fill="#e8ac9b"/>
+ <ellipse cx="242" cy="239" rx="104" ry="99" fill="#c99173" stroke="#875b54" stroke-width="7"/>
+ <ellipse cx="241" cy="268" rx="44" ry="33" fill="#eac0a7"/><ellipse cx="241" cy="252" rx="13" ry="10" fill="#72504e"/>
+ <path d="M241 262v12m0 0q-13 16-25 0m25 0q14 16 26 0" stroke="#72504e" stroke-width="4" stroke-linecap="round"/>
+ <path d="M201 234q9-8 17 1m44 0q9-9 17 0" stroke="#654642" stroke-width="5" stroke-linecap="round"/>
+ <ellipse cx="181" cy="259" rx="19" ry="11" fill="#ef9ba4" opacity=".78"/><ellipse cx="301" cy="260" rx="18" ry="11" fill="#ef9ba4" opacity=".78"/>
+ <!-- big center heart -->
+ <path d="M321 464C245 410 215 372 229 334c11-33 61-47 92-4 28-44 79-30 92 4 16 42-20 83-92 130Z" fill="url(#bigHeart)" stroke="#d85f81" stroke-width="7"/>
+ <path d="M263 347q14-18 30-7" stroke="#fff5f3" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+ <!-- paws wrapping heart -->
+ <ellipse cx="256" cy="368" rx="29" ry="25" transform="rotate(-21 256 368)" fill="#c99173" stroke="#875b54" stroke-width="6"/>
+ <ellipse cx="394" cy="366" rx="28" ry="25" transform="rotate(25 394 366)" fill="#f8e9d8" stroke="#a7786b" stroke-width="6"/>
+ <circle cx="273" cy="365" r="4" fill="#ad7866"/><circle cx="381" cy="362" r="4" fill="#dbaea3"/>
+ </g>
+ <g fill="#fffaf7"><path d="M318 348v20m-10-10h20" stroke="#fffaf7" stroke-width="4" stroke-linecap="round"/><circle cx="313" cy="379" r="3"/></g>
+ <path d="M490 397q15-12 31 0" stroke="#e49cab" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+</svg>
